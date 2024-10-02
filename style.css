@@ -202,17 +202,16 @@ form {
 .form p {
     font-size: 14px;
     text-align: center;
+
 }
 .form p a {
     text-decoration: none;
     color: #1c1e21;
-    font-weight: 600;
 }
 
 .form p b:hover {
     text-decoration: underline;
 }
-
 
 
 
@@ -261,3 +260,4 @@ footer ul li a:hover {
 footer p {
     font-size: 11px;
 }
+
