@@ -1,0 +1,263 @@
+
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+main {
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer {
+    height: 30vh;
+    background-color: #ffffff;
+}
+
+
+
+.logo {
+    flex: 0 0 50%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.logo img {
+   height: 70px;
+   padding: 0 10px;
+   
+}
+
+.logo h1 {
+    font-family: inherit;
+    font-size: 36px;
+    font-weight:400;
+    color: #333;
+    display: block;
+    unicode-bidi: isolate;
+    padding: 0 30px;
+    line-height: 32px;
+}
+
+.logo h3 {
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    padding-bottom: 12px;
+    line-height: 24px;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+
+}
+
+/* recent log-ins */
+
+.accounts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 50px;
+    ;
+}
+
+.account {
+    flex-basis: 20%;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 10px;
+    display: block;
+    /* flex: 0 0 20%; */
+
+}
+
+.account > img {
+    width: 100%;
+}
+
+figcaption {
+    padding: 1px;
+    /* margin-left: 50px; */
+    text-align: center;
+    flex: auto;
+    display:flex;
+}
+
+figcaption > div {
+    display: flex;
+}
+
+
+/* form */
+
+form {
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.form .form-container {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.form .form-container input, .form .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.form .form-container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 1rem;
+    outline: none;
+    border-radius: 6px;
+}
+
+.form .form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.form .form-container .btn-login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.form .form-container .btn-login:hover {
+    background-color: #1876f2d8;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.form .form-container a {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #dadde1;
+    text-align: center;
+}
+
+.form .form-container a:hover {
+    text-decoration: underline;
+}
+
+.form .form-container .btn-new {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin-left: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.form .form-container .btn-new:hover {
+    background-color: rgb(51, 138, 33);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+.form p {
+    font-size: 14px;
+    text-align: center;
+}
+.form p a {
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: 600;
+}
+
+.form p b:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* footer */
+
+footer {
+    height: 30vh;
+    background-color: #ffffff;
+}
+
+.contents {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0;
+}
+footer ul:first-child {
+    border-bottom: 1px solid #dddfe2;
+}
+footer ul:first-child li:last-child button {
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    padding: 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+footer ul li {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #385898;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #385898;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
+footer p {
+    font-size: 11px;
+}
